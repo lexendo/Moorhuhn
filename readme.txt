@@ -1,40 +1,185 @@
-Vypracoval: Ondrej Babinský
-Projekt: Proj24-J1 - Moorhuhn
+# Moorhuhn
+Game made in **Java**, graphics powered by **JavaFX**
 
-Spustite kliknutím RUN v maine
+---
 
+## About
 
-Vypracované celé hlavné zadanie:
+This game started as a simple semester project, but as I worked on it, I kept finding new things to add that made it more fun.  
 
--Hlavné menu s možnosťou play/quit.
+🎥 **Video of gameplay:** _TBD_
 
--Vykreslenie levelu, terča na strieľanie, ukazovateľa skóre, času a počtu nábojov.
+**Developed by:** Ondrej Babinský  
+**Project:** Proj24-J1 - Moorhuhn
 
--Náhodné generovanie statických sliepok na obrazovke (niekde na zemi).
+---
 
--Náhodné generovanie lietajúcich sliepok na obrazovke (idú z jedného kraja obrazovky k druhému, ak ich hráč netrafí, zmiznú za okrajom).
+## ✅ Main Features
 
--Počítanie skóre za zabitie sliepky, ktorá po zabití zmizne (podľa veľkosti jej obrázka).
+- **Main Menu** with options:
+  - Choose Name
+  - Play
+  - Armory
+  - Leaderboard
+  - Achievements
+  - Quit
 
--Možnosť prebíjania (R alebo SPACE) a časovač pre ukončenie hry.
+- **Level Rendering**
+  - Game level display
+  - Visible crosshair
+  - Score counter
+  - Timer
+  - Bullet count
 
--Bonusove funkcionality.
+- **Chickens**
+  - Random immobile chickens (ground)
+  - Random flying chickens of various sizes
+  - Chickens disappear when hit
+  - Score varies by chicken type
+  - Lose points when missing
 
-Bonusové funkcionality:
+- **Reloading Mechanism**
+  - Reload with `R` or `SPACE`
+  - Limited ammo per weapon
 
-1. Hudba na pozadí
-2. Rôzne zvuky strelby, prebíjania, nedostatku nábojov
-3. Leaderboard - do scores.txt sa po prejdeni levelu ulozi nick, ktorý si zvolime pred kliknutím Play
-    Sortnute podľa najväčšieho skóra.
-4. Po zapnutí hry znova, sa vám automaticky dá posledné meno (mozete zmenit).
-5. 2 druhy vtákov - sliepky a vtaky, jedny lietajúce ktoré majú animácie druhé statické.
-6. Za zabíjanie vtákov získavame peniaze ktoré sa ukladajú do money.txt
-7. Scéna Armory, kde si mozete kupit za vyssie spominane peniaze 3 dalsie zbrane a vybrat ktoru chcete prave pouzivat, vase kupene a prave pouzivane zbrane su zapisane vo weaponData.txt a pri dalsom zapnuti hry sa znovu nacitaju
-8. Vyssie spominane zbrane, klasicka pistol Deagle, brokovnica, plameňomet a galakticka mega zbraň, vsetky rozne zvuky a sposoby strelby
-9. Rozne obrazky reprezentujuce naboje a ich pocet v hre
-10. Kopec CSS
+- **Scoring System**
+  - Score displayed live
+  - Bonus/malus for accuracy
 
+---
 
+## ✨ Bonus Features
 
+- 🎵 **Background Music**
+  - Background songs cycle during gameplay
 
-Ešte tam je scéna achievements, ktorá nie je dorobená (klik na trofej vpravo hore)
+- 🔊 **Sound Effects**
+  - Shooting, reloading, and out-of-ammo warnings
+  - Each weapon has unique sounds
+
+- 🏆 **Leaderboard**
+  - Table with scores stored locally in file
+  - Sorted by highest score
+
+- 👤 **Name Memory**
+  - Last used name is remembered locally and reused
+
+- 🐤 **Variety of Birds**
+  - Static and flying chickens with different animations
+
+- 💰 **Currency System**
+  - Earn money for shooting chickens
+  - Money saved locally in file
+
+- 🔫 **Armory Scene**
+  - Use earned money to buy and equip up to 4 different weapons
+  - Purchases and selection saved locally in file
+  - Weapons:
+    - Deagle Pistol
+    - Shotgun
+    - Flamethrower
+    - Supergalactic Obliterator
+  - Each weapon has different shooting mechanics, reload speed, ammo capacity, and sound effects
+
+- 🔢 **Ammo Representation**
+  - Ammo is visualized with specific graphics depending on the weapon
+
+- 🎨 **Extensive CSS Styling**
+  - All game scenes use custom JavaFX CSS for modern appearance
+
+- 🏅 **Achievements (TBD)**
+  - Trophy page for unlocking milestones (currently in development)
+
+---
+
+## 🇸🇰 SK - Slovenská verzia
+
+Hra vytvorená pomocou **JavaFX**
+
+---
+
+## O hre
+
+Táto hra začala ako jednoduchý semestrálny projekt, ale ako som na nej pracoval, stále som nachádzal nové veci, ktoré by sa dali pridať a urobiť hru zábavnejšou.  
+
+🎥 **Video z hry:** _bude doplnené_
+
+**Vypracoval:** Ondrej Babinský  
+**Projekt:** Proj24-J1 - Moorhuhn
+
+---
+
+## ✅ Hlavné funkcie
+
+- **Hlavné menu** s možnosťami:
+  - Výber mena
+  - Play
+  - Armory
+  - Leaderboard
+  - Achievements
+  - Quit
+
+- **Vykreslenie levelu**
+  - Zobrazenie úrovne
+  - Zameriavač (crosshair)
+  - Počítadlo skóre
+  - Časovač
+  - Počet nábojov
+
+- **Sliepky**
+  - Náhodné statické sliepky na zemi
+  - Lietajúce sliepky rôznych veľkostí
+  - Sliepky zmiznú po zásahu
+  - Skóre závisí od typu sliepky
+  - Za chybný výstrel sa odpočítavajú body
+
+- **Mechanizmus nabíjania**
+  - Nabíjanie pomocou `R` alebo `SPACE`
+  - Obmedzený počet nábojov pre každú zbraň
+
+- **Systém skórovania**
+  - Skóre sa priebežne zobrazuje
+  - Bonusy alebo postihy podľa presnosti
+
+---
+
+## ✨ Bonusové funkcie
+
+- 🎵 **Hudba na pozadí**
+  - Striedanie skladieb počas hrania
+
+- 🔊 **Zvukové efekty**
+  - Streľba, nabíjanie, upozornenie na prázdny zásobník
+  - Každá zbraň má vlastné zvuky
+
+- 🏆 **Leaderboard**
+  - Tabuľka skóre uložená lokálne v súbore
+  - Zoradené podľa najvyššieho skóre
+
+- 👤 **Pamäť mena**
+  - Posledné zadané meno sa pamätá a opätovne použije
+
+- 🐤 **Rôzne druhy vtákov**
+  - Statické a lietajúce sliepky s animáciami
+
+- 💰 **Systém meny**
+  - Peniaze za zásahy sa ukladajú do lokálneho súbora
+
+- 🔫 **Scéna Armory**
+  - Použi peniaze na kúpu a výber až 4 zbraní
+  - Zbrane a výber sú uložené v lokálnom súbore
+  - Dostupné zbrane:
+    - Deagle pištoľ
+    - Brokovnica
+    - Plameňomet
+    - Supergalaktický deštruktor
+  - Každá má iný štýl streľby, rýchlosť nabíjania, kapacitu nábojov a zvuky
+
+- 🔢 **Zobrazenie nábojov**
+  - Počet nábojov sa vizuálne zobrazuje rôznymi obrázkami
+
+- 🎨 **Rozsiahle CSS štýly**
+  - Moderný vzhľad cez JavaFX CSS
+
+- 🏅 **Achievements (TBD)**
+  - Trofeje za splnené výzvy (momentálne vo vývoji)
