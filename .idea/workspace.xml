@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/money.txt" beforeDir="false" afterPath="$PROJECT_DIR$/money.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weaponData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weaponData.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,7 @@
       <workItem from="1723704187495" duration="1719000" />
       <workItem from="1724164004792" duration="55000" />
       <workItem from="1727346550328" duration="246000" />
-      <workItem from="1751155313983" duration="3303000" />
+      <workItem from="1751155313983" duration="4333000" />
     </task>
     <servers />
   </component>
