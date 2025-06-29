@@ -7,7 +7,8 @@ Game made in **Java**, graphics powered by **JavaFX**
 
 This game started as a simple semester project, but as I worked on it, I kept finding new things to add that made it more fun.  
 
-🎥 **Video of gameplay:** _TBD_
+🎥 **Video of gameplay:** [Watch here](https://github.com/lexendo/Moorhuhn/blob/main/Moorhuhn.mp4)
+
 
 **Developed by:** Ondrej Babinský  
 **Project:** Proj24-J1 - Moorhuhn
@@ -102,8 +103,7 @@ Hra vytvorená pomocou **JavaFX**
 
 Táto hra začala ako jednoduchý semestrálny projekt, ale ako som na nej pracoval, stále som nachádzal nové veci, ktoré by sa dali pridať a urobiť hru zábavnejšou.  
 
-🎥 **Video z hry:** _bude doplnené_
-
+🎥 **Video z hry:** [Pozri sem](https://github.com/lexendo/Moorhuhn/blob/main/Moorhuhn.mp4)
 **Vypracoval:** Ondrej Babinský  
 **Projekt:** Proj24-J1 - Moorhuhn
 
